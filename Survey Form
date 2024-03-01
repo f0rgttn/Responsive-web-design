@@ -1,0 +1,52 @@
+<!Doctype html>
+<html lang="en"></html>
+<head>
+  <title>Form page</title>
+</head>
+
+<body>
+   <h1 id="title">Page Title</h1>
+    <p id="description">This is a short explanation about the form.</p>
+
+    <!-- form -->
+     <form id="survey-form">
+
+        <!--Input Name-->
+        <label for="name" id="name-label">Enter name:<input required id="name" placeholder="Enter your name" type="text"/></label>
+
+        <!--Input Email-->
+        <label for="email" id="email-label">Enter email:<input required id="email" type="email" placeholder="Enter your email"  <form id="survey-form">/></label>
+
+        <!--Input Number-->
+        <label for="number" id="number-label">Enter number:<input id="number" type="number" min="0" max="100" placeholder="Num" <form id="Num">/></label>
+
+        <!-- Dropdown menu-->
+        <label for="dropdown">Select element:</label>
+        <select id="dropdown" name="dropdown">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select>
+
+        <!-- Radio button-->
+        <label>Select one:</label>
+        <input type="radio"  id="radio1" name="radio" value="option1">
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio2" name="radio" value="option2">
+        <label for="radio2">Option 2</label>
+
+         <!-- Checkboxes -->
+        <label>Select one or more options:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox-group" value="option1">
+        <label for="checkbox1">Option 1</label>
+        <input type="checkbox" id="checkbox2" name="checkbox-group" value="option2">
+        <label for="checkbox2">Option 2</label>
+
+        <!-- textarea-->
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+
+        <!-- Submit button-->
+        <button type="submit" id="submit">Submit</button>
+    </form>
+  </h1>
+</body>
